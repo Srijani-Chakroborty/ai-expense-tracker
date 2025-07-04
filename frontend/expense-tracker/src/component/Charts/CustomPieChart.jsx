@@ -17,11 +17,7 @@ const CustomPieChart = ({
   colors,
   showTextAnchor,
 }) => {
-  console.log('Data:', data); // Log the data prop
-  console.log('Colors:', colors); 
-  console.log('Label:', label);
-  console.log('Total Amount:', totalAmount); // Log the totalAmount prop
-  return (
+ return (
     <ResponsiveContainer width="100%" height={300}>
       <PieChart>
         <Pie

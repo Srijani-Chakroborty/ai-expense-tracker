@@ -7,9 +7,7 @@ const generateToken = (id) => {
   });
 };
 exports.registerUser = async (req, res) => {
-  console.log("Register user called");
   const { fullName, email, password, profileImageUrl } = req.body;
-  console.log(req.body);
   if (!fullName || !email || !password) {
     return res.status(400).json({ message: "Please fill all fields" });
   }
@@ -39,7 +37,6 @@ exports.registerUser = async (req, res) => {
 
 exports.loginUser = async (req, res) => {
   const { email, password } = req.body;
-  console.log(req.body);
   if (!email || !password) {
     return res.status(400).json({ message: "Please fill all fields" });
   }
@@ -79,8 +76,15 @@ exports.updateProfile = async (req, res) => {
     const { fullName, profileImageUrl } = req.body;
     const updateFields = {};
     if (fullName !== undefined) updateFields.fullName = fullName;
-    if (profileImageUrl !== undefined)
+
+    // Only update profileImageUrl if it is provided and not null/empty string
+    if (
+      profileImageUrl !== undefined &&
+      profileImageUrl !== null &&
+      profileImageUrl !== ""
+    ) {
       updateFields.profileImageUrl = profileImageUrl;
+    }
     const updatedUser = await User.findByIdAndUpdate(
       userId,
       { $set: updateFields },

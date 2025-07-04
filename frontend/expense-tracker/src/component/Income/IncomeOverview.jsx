@@ -13,7 +13,6 @@ const IncomeOverview = ({transactions,onAddIncome}) => {
     return () => {};
   }, [transactions]);
   
-  console.log(chartData);
   return (
     <div className="card">
       <div className="flex items-center justify-between">

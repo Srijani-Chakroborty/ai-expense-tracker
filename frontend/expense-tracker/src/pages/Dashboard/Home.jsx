@@ -49,7 +49,6 @@ const Home = () => {
       const response = await axiosInstance.post(
         `${API_PATHS.INSIGHTS.GET_INSIGHTS}`
       );
-      console.log("📦 AI Insights Response:", response.data);
       if (response.data?.insights) {
         setInsights(response.data.insights);
       }

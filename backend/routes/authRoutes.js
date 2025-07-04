@@ -8,7 +8,6 @@ const {
   getUserInfo,
   updateProfile,
 } = require("../controllers/authController");
-console.log("Auth routes loaded");
 const router = express.Router();
 router.post("/register", registerUser);
 router.post("/login", loginUser);
