@@ -2,7 +2,7 @@
 
 A full-stack web application for tracking expenses and income, providing insightful analytics and AI-powered financial insights. Built with a React frontend and Node.js/Express backend, with support for cloud storage and AI integration.
 
-##Demo
+## Demo
 
 https://github.com/user-attachments/assets/217e132f-c8a0-4ccc-ac35-4f8878090921
 
@@ -10,12 +10,20 @@ https://github.com/user-attachments/assets/217e132f-c8a0-4ccc-ac35-4f8878090921
 
 - User authentication (sign up, login)
 - Add, edit, and delete expenses and income
+  Income 
+  <img width="1502" alt="Screenshot 2025-07-04 at 10 57 22 PM" src="https://github.com/user-attachments/assets/ad97d41f-6763-4d59-b8a7-6fba538e939c" />
+  Expense
+  <img width="1510" alt="Screenshot 2025-07-04 at 10 58 05 PM" src="https://github.com/user-attachments/assets/9e7335ed-c7e0-4ab7-a171-694620cdbf1d" />
+
 - Dashboard with charts and summaries
+  <img width="1509" alt="Screenshot 2025-07-04 at 10 55 50 PM" src="https://github.com/user-attachments/assets/37f8ba40-751b-4e5c-80d9-74731add6ee5" />
+
 - AI-powered financial insights (via Gemini API)
+  <img width="1511" alt="Screenshot 2025-07-04 at 10 56 42 PM" src="https://github.com/user-attachments/assets/3afd6601-f606-40dc-aa24-77ea225f5970" />
+  
 - Profile management with photo upload
 - Secure RESTful API
 - Cloudinary integration for image uploads
-
 ## Tech Stack
 
 - **Frontend:** React, Vite, CSS
