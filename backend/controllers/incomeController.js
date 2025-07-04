@@ -3,7 +3,6 @@ const xlsx = require('xlsx');
 const Income = require('../models/Income');
 
 exports.addIncome = async (req, res) => {
-    console.log("Income add route hit");
     const userId = req.user.id;
     
     try {

@@ -26,7 +26,6 @@ exports.getAIInsights = async (req, res) => {
     };
 
     const insights = await getInsightFromGemini(transactions);
-    console.log("Gemini AI Insights:", insights);
     res.status(200).json({ insights });
   } catch (error) {
     console.error("Gemini AI Error:", error.message);

@@ -3,7 +3,6 @@ const xlsx = require('xlsx');
 const Expense = require('../models/Expense');
 
 exports.addExpense = async (req, res) => {
-    console.log("Expense add route hit");
     const userId = req.user.id;
     
     try {
