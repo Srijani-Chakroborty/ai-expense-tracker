@@ -15,7 +15,7 @@ import RecentTransactions from "../../component/Dashboard/RecentTransactions";
 import FinanceOverview from "../../component/Dashboard/FinanceOverview";
 import RecentIncomeWithChart from "../../component/Dashboard/RecentIncomeWithChart";
 import RecentIncome from "../../component/Dashboard/RecentIncome";
-import AIInsights from "../../component/Dashboard/AiInsights";
+import AIInsights from "../../component/Dashboard/AIInsights";
 import { useInsights } from "../../context/InsightsContext";
 
 const Home = () => {
