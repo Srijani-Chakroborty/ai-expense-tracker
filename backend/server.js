@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "*",
+    origin: process.env.CLIENT_URL || "https://ai-expense-tracker-zuyx.vercel.app/", // Set this to your actual Vercel frontend URL after deployment
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowHeaders: ["Content-Type", "Authorization"],
   })
@@ -27,6 +27,10 @@ app.use("/api/v1/income", incomeRoutes);
 app.use("/api/v1/expense", expenseRoutes);
 app.use("/api/v1/dashboard", dashboardRoutes);
 app.use("/api/v1/insights", geminiRoutes);
+
+app.get("/", (req, res) => {
+  res.send("API is running!");
+});
 
 // app.post('/test', (req, res) => {
 //     console.log(req.body);
