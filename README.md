@@ -12,6 +12,9 @@ https://github.com/user-attachments/assets/217e132f-c8a0-4ccc-ac35-4f8878090921
 ## Features
 
 - User authentication (sign up, login)
+- AI-powered financial insights (via Gemini API)
+  <img width="1511" alt="Screenshot 2025-07-04 at 10 56 42 PM" src="https://github.com/user-attachments/assets/3afd6601-f606-40dc-aa24-77ea225f5970" />
+  
 - Add, edit, and delete expenses and income
   
   Income 
@@ -21,9 +24,6 @@ https://github.com/user-attachments/assets/217e132f-c8a0-4ccc-ac35-4f8878090921
 
 - Dashboard with charts and summaries
   <img width="1509" alt="Screenshot 2025-07-04 at 10 55 50 PM" src="https://github.com/user-attachments/assets/37f8ba40-751b-4e5c-80d9-74731add6ee5" />
-
-- AI-powered financial insights (via Gemini API)
-  <img width="1511" alt="Screenshot 2025-07-04 at 10 56 42 PM" src="https://github.com/user-attachments/assets/3afd6601-f606-40dc-aa24-77ea225f5970" />
   
 - Profile management with photo upload
 - Secure RESTful API
