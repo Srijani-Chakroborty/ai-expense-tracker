@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://ai-expense-tracker-zuyx.vercel.app/", // Set this to your actual Vercel frontend URL after deployment
+    origin: process.env.CLIENT_URL || "https://ai-expense-tracker-zuyx.vercel.app", // Set this to your actual Vercel frontend URL after deployment
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowHeaders: ["Content-Type", "Authorization"],
   })
