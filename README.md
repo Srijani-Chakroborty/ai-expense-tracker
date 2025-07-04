@@ -2,6 +2,9 @@
 
 A full-stack web application for tracking expenses and income, providing insightful analytics and AI-powered financial insights. Built with a React frontend and Node.js/Express backend, with support for cloud storage and AI integration.
 
+## Visit the site
+https://ai-expense-tracker-zuyx.vercel.app/
+
 ## Demo
 
 https://github.com/user-attachments/assets/217e132f-c8a0-4ccc-ac35-4f8878090921
