@@ -10,6 +10,7 @@ https://github.com/user-attachments/assets/217e132f-c8a0-4ccc-ac35-4f8878090921
 
 - User authentication (sign up, login)
 - Add, edit, and delete expenses and income
+  
   Income 
   <img width="1502" alt="Screenshot 2025-07-04 at 10 57 22 PM" src="https://github.com/user-attachments/assets/ad97d41f-6763-4d59-b8a7-6fba538e939c" />
   Expense
